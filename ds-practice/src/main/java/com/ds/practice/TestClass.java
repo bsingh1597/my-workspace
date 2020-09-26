@@ -6,7 +6,7 @@ public class TestClass {
 
 		Integer[] arr = new Integer[] { 1, 2, 3, 4, 5 };
 
-		MyLinkedList<Integer> myll = new MyLinkedList<>();
+		MyLinkedList<Integer> myll = new MyLinkedList<Integer>();
 
 		for (Integer i : arr) {
 
